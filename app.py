@@ -7,7 +7,7 @@ app = Flask(__name__)
 # Initialize OpenRouter Client
 client = OpenAI(
     base_url="https://openrouter.ai/api/v1",
-    api_key=""  # <-- Swap this with your actual OpenRouter API key
+    api_key="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"  # <-- Swap this with your actual OpenRouter API key
 )
 
 HTML_CODE = """
